@@ -2,6 +2,7 @@
 /**
  * main- print out size of data types in c
  * Return: 0
+ * zubairir code
  */
 int main(void)
 {
