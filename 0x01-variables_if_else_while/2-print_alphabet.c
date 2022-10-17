@@ -1,15 +1,16 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * print_alphabet- Prints the print_alphabet
+ * main- Prints the print_alphabet
  *
+ * Return: 0
  */
-void print_alphabet(void)
+int main(void)
 {
-	char i;
+	char letter;
 
-	printf("Alphabets from a-z:\n");
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
-	for (i = 'a'; i <= 'z'; i++)
-		putchar(i);
-	putchar("\n")
+	putchar('\n');
+	return (0);
 }
