@@ -2,7 +2,7 @@
 /**
  * main - enter the character of _putchar
  *
- * Retur: 0
+ * Return: 0
  */
 int main(void)
 {
